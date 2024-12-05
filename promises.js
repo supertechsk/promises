@@ -13,9 +13,11 @@
 }
 
 async function result() {
-   let data =  await resolvePromise(2);
+   let data =  await resolvePromise(3);
     console.log(data)
   
 }
 result();
+
+
 
