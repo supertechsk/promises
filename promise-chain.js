@@ -14,7 +14,7 @@ function firstPromise(condition){
             else{
                 reject("First Promise rejected")
             }
-        },1000)
+        },2000)
     })
 }
 
