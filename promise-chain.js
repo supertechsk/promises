@@ -51,8 +51,8 @@ function results(){
    firstPromise(true)
     .then(secondPromise(true))
     .then(thirdPromise(true))
-    .then( (res) =>{
-        console.log(res);
+    .then( (result) =>{
+        console.log(result);
     })
     .catch((err) => {
         console.error("Error is " , err); 
