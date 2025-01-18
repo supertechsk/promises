@@ -18,6 +18,7 @@ async function result() {
   
 }
 result();
+console.log("promise resolved");
 
 
 
