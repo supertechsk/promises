@@ -4,7 +4,7 @@
     const promise = new Promise((resolve , reject) =>{
         setTimeout(() => {
 
-            resolve(`Resolve after ${n} second`);
+            resolve(`Promise resolve after ${n} second`);
 
         }, n * 1000);
     })
